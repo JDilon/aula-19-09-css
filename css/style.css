@@ -1,0 +1,80 @@
+*{
+    /* o asterisco aplica o css a tudo!
+    usamos ele para fazer o reset(limpar)
+    o css padão do navegaror e aplicar um unico 
+    */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* define o tamanho do elemento*/
+    line-height: 1.5;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    color: var(--text-color);
+}
+
+body{
+    background: var(--backgroud-color);
+}
+
+p{
+    font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+    color:blueviolet !important;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.container{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.card{
+    border:1px #cccccc solid;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1 );
+}
+.tamanho-50{
+    width:49%;
+    max-width:49%;
+}
+
+header, footer{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+text-align:center;
+}
+
+footer p{
+    color:var(--secondary-color);
+}
+
+header h1{
+    margin-bottom: 0;
+}
+
+.button{
+border: 1px #c2c2c2 solid;
+border-radius:5px;
+padding: 10px 20px;
+background: var(--primary-color);
+color: var(--secondary-color);
+}
+
+.button:hover{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
